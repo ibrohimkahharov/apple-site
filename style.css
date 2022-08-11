@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background: #333;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.nav2{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+   
+}
+.nav2 h1{
+    
+    transform: translateX(450px) translateY(20px);
+}
+.nav2 i{
+    padding-left: 450px;
+    transform: translateY(15px);
+   font-size: 40px;
+}
+.nav2 span{
+margin-top: 30px;
+transform: translateX(1px);
+
+}
+.nav2 a{
+    text-decoration: none;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.i{
+    color: aliceblue;
+    padding-left: 10px; 
+}
+.item{
+    list-style: none;
+}
+.item span{
+    font-size: 12px;
+    color: #ddd;
+}
+.item i{
+    color: #ddd;
+}
+
+.macbook{
+    width: 100%;
+    height: 600px;
+    background: url("./hero_macbookair__el7scava26mq_large.png") no-repeat center/cover;
+
+    padding-top: 200px;
+    padding-left: 18%;
+}
+.macbook_text{
+    width: 500px;
+    text-align: center;
+}
+.macbook_text h1{
+    font-size: 50px;
+}
+.macbook_text h3{
+    padding: 20px 0px;
+    font-size: 28px;
+    font-weight: 300;
+}
+.link{
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.link span{
+    font-size: 18px;
+}
+.link:hover span{
+    text-decoration: underline;
+}
+
+
+.ipad{
+    width: 100%;
+    height: 600px;
+    background: url("./hero_bts__bcuslanw39xe_large.jpg") no-repeat center/cover;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.ipad h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.ipad h1 span{
+    color: #CA2166;
+}
+.ipad h3{
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.macboo{
+    width: 100%;
+    height: 600px;
+ background: url("./hero_watch_lte__b8er858e34gi_large.jpg") no-repeat center/cover;
+    padding-top: 140px;
+    padding-left: 30%;
+}
+.macbok_text{
+    width: 500px;
+    text-align: center;
+}
+.macbok_text h1{
+    font-size: 50px;
+    
+}
+.macbok_text h4{
+    padding: 20px 0px;
+    font-size: 28px;
+    font-weight: 300;
+    color: #CA2166;
+}
+.link{
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.link span{
+    font-size: 18px;
+
+}
+.link:hover span{
+    text-decoration: underline;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 49.7%;
+    height: 550px;
+
+    margin-top: 10px;
+    text-align: center;
+}
+.ip{
+    background: url("./promo_iphone13_avail__frc36u35m0ii_large.jpg") no-repeat center/cover;
+ color: black;
+ 
+
+}
+.ip a{
+ text-decoration: none;
+
+}
+.ip span{
+    display: block;
+}
+
+
+.iphone13_pro{
+   background: url("./promo_iphone13pro_avail__beadms4ldidu_large\ \(1\).jpg") no-repeat center/cover;
+
+}
+.iphone13_pro a{
+text-decoration: none;
+}
+.iphone13_pro span{
+    display: block;
+}
+.macbok_pro{
+    background: url("./promo_mbp13__buwssod6c8vm_large.jpg") no-repeat center/cover;
+   color: azure;
+}
+.macbok_pro span{
+display: block;
+}
+.macbok_text span{
+}
+.tel{
+    color: azure;
+    background: url("./promo_ipadair_avail__ferd4bfpcdm6_large\ \(1\).jpg") no-repeat center/cover;
+}
+.tel span{
+    display: block;
+}
+.card{
+    background: url("./tile__cauwwcyyn9hy_large\ \(3\).jpg") no-repeat center/cover; 
+}
+.card span{
+    text-align: center;
+   
+    display: block;
+}
+.air{
+    color: azure;
+  background: url("./tile__cauwwcyyn9hy_large\ \(2\).jpg") no-repeat center/cover;
+}
+.air span{
+    display: block;
+}
+.footer{
+    margin-top: 20px;
+}
+.rasmla{
+    width: 100%;
+    height: 600px;
+    background: url("./hero_bts__bcuslanw39xe_large.jpg") no-repeat center/cover;
+}
+.footer p{
+ width: 40px;
+  margin-top: 10px;
+}
+
+.yoz{
+    width: 100px;
+    height: 400px;
+    transform: translateX(50px);
+
+}
+.W{
+    width: 100px;
+    height: 400px;
+    display: flex;
+  transform: translateX(650px) translateY(-400px);
+}
+.u{
+    width: 100px;
+    height: 400px;
+    display: flex;
+    transform: translateX(1200px) translateY(-800px);
+}
